@@ -15,6 +15,6 @@ class Api extends CI_Controller {
 	public function index()
 	{
 		$data['data'] = $this->SQLQuery->Select('SELECT Akten.Akte, Akten.Nachname, (IFNULL(SUM(Zahlungen.Betrag),0) ) AS Zinszahlungen FROM Akten LEFT JOIN Zahlungen ON Akten.Akte = Zahlungen.Akte AND Zahlungen.Art = 2 GROUP BY Akten.Akte ');
-    echo json_encode( $data );
+    echo json_encode( $data['data'] );
 	}
 }
