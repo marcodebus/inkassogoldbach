@@ -14,7 +14,9 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$data['sql'] = $this->SQLQuery->Select('SELECT Akten.Akte, Akten.Nachname, (IFNULL(SUM(Zahlungen.Betrag),0) ) AS Zinszahlungen FROM Akten LEFT JOIN Zahlungen ON Akten.Akte = Zahlungen.Akte AND Zahlungen.Art = 2 GROUP BY Akten.Akte ');
+		$data['sql'] = $this->SQLQuery->Select('SELECT a.Akte, a.Nachname, Sum(IIf([z].[Betrag] Is Null,0,[z].[Betrag])) AS Zinszahlungen
+FROM Akten AS a LEFT JOIN (SELECT a1.Akte, a1.Nachname, z1.Betrag FROM Akten AS a1 LEFT JOIN Zahlungen AS z1 ON a1.Akte = z1.Akte WHERE (((z1.Art)=2)))  AS z ON a.Akte = z.Akte
+GROUP BY a.Akte, a.Nachname;');
     $this->load->view('welcome_message', $data);
 	}
 }
