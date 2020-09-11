@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Akten>
+    <Akte>194225</Akte>
+    <Nachname>Heuss</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>0</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+  <Akten>
+    <Akte>237035</Akte>
+    <Nachname>Lübke</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>0</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+  <Akten>
+    <Akte>248335</Akte>
+    <Nachname>Heinemann</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>6759</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+  <Akten>
+    <Akte>267663</Akte>
+    <Nachname>Scheel</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>7906</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+  <Akten>
+    <Akte>384803</Akte>
+    <Nachname>Carstens</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>0</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+  <Akten>
+    <Akte>518723</Akte>
+    <Nachname>von Weizsäcker</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>0</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+  <Akten>
+    <Akte>518733</Akte>
+    <Nachname>Herzog</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>0</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+  <Akten>
+    <Akte>518737</Akte>
+    <Nachname>Rau</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>0</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+  <Akten>
+    <Akte>560655</Akte>
+    <Nachname>Köhler</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>0</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+  <Akten>
+    <Akte>598494</Akte>
+    <Nachname>Wulff</Nachname>
+    <_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>0</_x0028_IFNULL_x0028_SUM_x0028_Zahlungen.Betrag_x0029__x002C_0_x0029__x0029_>
+  </Akten>
+</NewDataSet>
