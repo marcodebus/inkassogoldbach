@@ -14,9 +14,7 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$data['sql'] = $this->SQLQuery->Select('SELECT a.Akte, a.Nachname, Sum(IIf([z].[Betrag] Is Null,0,[z].[Betrag])) AS Zinszahlungen
-FROM Akten AS a LEFT JOIN (SELECT a1.Akte, a1.Nachname, z1.Betrag FROM Akten AS a1 LEFT JOIN Zahlungen AS z1 ON a1.Akte = z1.Akte WHERE (((z1.Art)=2)))  AS z ON a.Akte = z.Akte
-GROUP BY a.Akte, a.Nachname;');
+		$data['sql'] = $this->SQLQuery->Select('SELECT Akte, Nachname , ( select COALESCE(sum(Betrag),0) from Zahlungen WHERE Art = 2 and Zahlungen.Akte = Akten.Akte ) from Akten');
     $this->load->view('welcome_message', $data);
 	}
 }
